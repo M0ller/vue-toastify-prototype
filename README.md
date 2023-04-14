@@ -3,7 +3,7 @@
 Documentation for the vue-project template.
 
 [vue3-toastify](https://vue3-toastify.netlify.app/) <br>
-[vue3-toastify documentation](https://vue3-toastify.js-bridge.com/usage/how-to-style.html) <br>
+[vue3-toastify how to style](https://vue3-toastify.js-bridge.com/usage/how-to-style.html) <br>
 
 ### Template prototype 
 
