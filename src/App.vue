@@ -7,7 +7,6 @@
       <div class="login">
         <h1>Customized position</h1>
         <button @click="notifyNewPos">Notify!</button>
-        <div class="toast-container"></div>
       </div>
     </div>
   </div>
@@ -26,7 +25,10 @@ export default {
     notifyNewPos() {
       toast.success("Im a special popup!", {
         autoClose: 1000,
-        toastStyle: 'toast-container',
+        position: "bottom-center",
+        style: {
+          bottom: 20 + "%",
+        }
       });
     }
   },
@@ -34,14 +36,6 @@ export default {
 </script>
 
 <style scoped>
-
-
-.toast-container {
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  transform: translateX(-50%);
-}
 
 .login {
   display: flex;
